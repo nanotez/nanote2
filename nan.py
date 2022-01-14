@@ -1,6 +1,6 @@
 import requests
 
-user = imput("Номер")
+nomer = imput("Номер")
 
 def _sms(phone):
     global x, y
