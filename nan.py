@@ -2,6 +2,6 @@ import requests
 
 nomer = input('Номер :')
 
-a= requests.post("https://rider.uklon.com.ua/api/v1/phone/send-code",
-                 json={"phone": nomer},)
+a= requests.post("https://my.telegram.org/auth/send_password",
+                 json={"phone": "+" + nomer},)
 print("отправлено")
