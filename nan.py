@@ -13,6 +13,4 @@ def _sms(phone):
             a = requests.post("https://my.telegram.org/auth/send_password",
             data={"phone": "+" + phone}, headers=headers1, timeout=5.05)
             print('\n        [\033[32m+\033[33m] сообщение от telegram отправлено!')
-        except:
-            y += 1
-            print('\n        [\033[31m-\033[33m] сообщение от telegram не отправлено!')
+      
