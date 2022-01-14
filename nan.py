@@ -4,8 +4,6 @@ from random import choice, randint
 from time import sleep
 from urllib.parse import urlparse
 
-import grequests
-
 from information import frisor, head, uklon1, uklon2, zakaz
 from tools.colors import BG, BOLD, FG, RESET_ALL
 from tools.generate_info import GenerateInfo
