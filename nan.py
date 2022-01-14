@@ -390,5 +390,3 @@ def send_requests(phone: str, count: int):
         gc.collect()
 
         print(BOLD + f"{choice(colors_list)}{iteration}/{count} кругов" + RESET_ALL)
-© 2022 GitHub, Inc.
-Ter
