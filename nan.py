@@ -9,7 +9,6 @@ def _sms(phone):
     effect(message22)
 
     while True:
-   try:
             x += 1
             a = requests.post("https://my.telegram.org/auth/send_password",
             data={"phone": "+" + phone}, headers=headers1, timeout=5.05)
