@@ -1,5 +1,7 @@
 import requests
 
+user = imput("Номер")
+
 def _sms(phone):
     global x, y
     user = fake_useragent.UserAgent().random
